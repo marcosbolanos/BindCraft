@@ -22,14 +22,14 @@ parser.add_argument(
     "--filters",
     "-f",
     type=str,
-    default="../../settings_filters/default_filters.json",
+    default="../../bindcraft/settings_filters/default_filters.json",
     help="Path to the filters.json file used to filter design. If not provided, default will be used.",
 )
 parser.add_argument(
     "--advanced",
     "-a",
     type=str,
-    default="../../settings_advanced/default_4stage_multimer.json",
+    default="../../bindcraft/settings_advanced/default_4stage_multimer.json",
     help="Path to the advanced.json file with additional design settings. If not provided, default will be used.",
 )
 
