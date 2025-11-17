@@ -2,7 +2,7 @@
 ###################### BindCraft Run
 ####################################
 ### Import dependencies
-from functions import *
+from bindcraft.functions import *
 
 # Check if JAX-capable GPU is available, otherwise exit
 check_jax_gpu()
